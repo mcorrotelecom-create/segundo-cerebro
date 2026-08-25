@@ -1,0 +1,7 @@
+# Opcional — activa la búsqueda semántica de verdad (modelo multilingüe
+# local en vez del respaldo liviano por palabras). Instálalo SOLO donde
+# sobre RAM: en tu PC local (`pip install -r requirements.txt -r
+# requirements-semantic.txt`), o en un plan de Render con más memoria que
+# el gratuito. En el plan gratis de Render (512MB) esto no cabe — el
+# Dockerfile de la raíz, a propósito, no lo instala.
+sentence-transformers==3.3.1
